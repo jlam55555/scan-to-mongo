@@ -1,8 +1,15 @@
+# scan-to-mongo
 
-Compilation
+Scan PDFs directly into searchable text Mongo database using Tesseract's OCR
+
+---
+
+### Compilation
 
     g++ src/main.cpp -o bin/main `pkg-config --cflags --libs tesseract lept libmongocxx libbsoncxx`
 
-Execution
+---
+
+### Execution
 
     bin/main
