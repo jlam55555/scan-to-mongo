@@ -10,7 +10,7 @@ Currently in the works.
 
 This requires the `tesseract`, `leptonica`, `libmongocxx`, and `libbsoncxx` libraries to be installed.
 
-    g++ src/main.cpp -o bin/main `pkg-config --cflags --libs tesseract lept libmongocxx libbsoncxx`
+    g++ src/main.cpp -o bin/main `pkg-config --cflags --libs tesseract lept libmongocxx libbsoncxx sane-backends`
 
 ---
 

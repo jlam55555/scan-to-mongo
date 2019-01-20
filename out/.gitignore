@@ -1,0 +1,5 @@
+# keep this directory empty: https://stackoverflow.com/a/932982/2397327
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
